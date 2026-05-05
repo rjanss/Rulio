@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import RulioEngine from "./components/RulioEngine";
 
 export default function App() {
@@ -30,6 +31,7 @@ export default function App() {
           <span>Production Environment</span>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
